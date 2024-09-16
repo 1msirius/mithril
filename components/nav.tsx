@@ -27,7 +27,7 @@ export function Navbar() {
           </h1>
         </a>
       </div>
-      <div className="hidden md:flex space-x-4 text-[13px] font-normal">
+      <div className="hidden md:flex space-x-4 text-xs font-normal">
         <a href="/blog" className="hover:text-gray-300">BLOG</a>
         <span className="text-[#787878]">/</span>
         <a href="/about" className="hover:text-gray-300">ABOUT</a>
@@ -45,7 +45,7 @@ export function Navbar() {
             </Button>
           </SheetTrigger>
           <SheetContent side="right" className="bg-black text-white">
-            <nav className="flex flex-col space-y-4 mt-8 text-[13px] font-normal">
+            <nav className="flex flex-col space-y-4 mt-8 text-xs font-normal">
               <a href="/blog" className="hover:text-gray-300">BLOG</a>
               <a href="/about" className="hover:text-gray-300">ABOUT</a>
               <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
