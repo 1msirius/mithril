@@ -2,11 +2,11 @@ import React from "react";
 
 export function Footer() {
   return (
-    <section className="flex justify-between items-center">
-      <div className="text-sm font-normal text-[#AFAFAF]">
+    <section className="flex flex-col justify-center items-center md:flex-row md:justify-between">
+      <div className="text-sm font-normal text-[#AFAFAF] mb-4 md:mb-0">
         <p>© 2024 Mithril AI</p>
       </div>
-      <div className="flex space-x-4 text-xs font-normal">
+      <div className="flex flex-wrap space-x-4 text-xs font-normal">
         <a
           href="https://twitter.com/mithrilailabs"
           target="_blank"

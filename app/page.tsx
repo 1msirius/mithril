@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center h-[80vh] text-center px-72">
+    <div className="flex flex-col items-center justify-center text-center px-4 sm:px-72 h-[80vh]">
       We are an open-source AI research and development company committed to
       advancing the training, fine-tuning, and inference of pre-trained large
       language models, while openly sharing the datasets used in the process.
