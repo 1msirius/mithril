@@ -6,17 +6,17 @@ import { Navbar } from "./components/nav";
 import { Footer } from "./components/footer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mithrilai.xyz"),
+  metadataBase: new URL("https://mithrilai.vercel.app/"),
   title: {
     default: "Mithril AI",
     template: `%s | Mithril AI`,
   },
   description: "Open-source AI Research & Development Lab",
   openGraph: {
-    images: [],
+    images: "/opengraph.png",
     title: "Mithril AI",
     description: "Open-source AI Research & Development Lab",
-    url: "https://mithrilai.xyz",
+    url: "https://mithrilai.vercel.app/",
     siteName: "Mithril AI",
     locale: "en_US",
     type: "website",
