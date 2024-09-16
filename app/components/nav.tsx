@@ -13,15 +13,19 @@ export function Navbar() {
             width={32}
             height={32}
           />
-          <h1 className="text-[26px] font-medium ml-3 tracking-widest">MITHRIL</h1>
+          <h1 className="text-[26px] font-medium ml-3 tracking-widest">
+            MITHRIL
+          </h1>
         </a>
       </div>
       <div className="flex space-x-4 text-xs font-normal">
-        <a href="/research">RESEARCH</a>
-        <span className="text-[#787878]">/</span>
         <a href="/blog">BLOG</a>
         <span className="text-[#787878]">/</span>
         <a href="/about">ABOUT</a>
+        <span className="text-[#787878]">/</span>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          JOIN US
+        </a>
       </div>
     </section>
   );
