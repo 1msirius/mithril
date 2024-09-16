@@ -21,10 +21,10 @@ export function Navbar() {
       <div className="flex space-x-4 text-xs font-normal">
         <a href="/blog">BLOG</a>
         <span className="text-[#787878]">/</span>
-        <a href="/about">ABOUT</a>
+        <a href="/about">ABOUT US</a>
         <span className="text-[#787878]">/</span>
         <a href="#" target="_blank" rel="noopener noreferrer">
-          JOIN US
+          CAREERS
         </a>
       </div>
     </section>
