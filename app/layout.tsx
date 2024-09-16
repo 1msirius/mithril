@@ -4,6 +4,7 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import { Navbar } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import Particles from "@/components/Particles";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://mithrilai.vercel.app/"),
@@ -48,8 +49,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
-      <body className="px-8 py-4 md:px-16 md:py-10">
+      <body className="px-8 py-4 md:px-16 md:py-10 relative">
         <Navbar />
+        <div className="absolute inset-0 -z-10">
+          <Particles />
+        </div>
         {children}
         <Footer />
       </body>
