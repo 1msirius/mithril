@@ -10,10 +10,10 @@ export function Navbar() {
             src="/logo.png"
             alt="Mithril AI Logo"
             className="pb-[2px]"
-            width={30}
-            height={30}
+            width={32}
+            height={32}
           />
-          <h1 className="text-2xl font-medium ml-3 tracking-wide">MITHRIL</h1>
+          <h1 className="text-[26px] font-medium ml-3 tracking-widest">MITHRIL</h1>
         </a>
       </div>
       <div className="flex space-x-4 text-xs font-normal">
