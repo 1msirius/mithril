@@ -17,7 +17,7 @@ export function Navbar() {
         </a>
       </div>
       <div className="flex space-x-4 text-xs font-normal">
-        <a href="#">RESEARCH</a>
+        <a href="/research">RESEARCH</a>
         <span className="text-[#787878]">/</span>
         <a href="/blog">BLOG</a>
         <span className="text-[#787878]">/</span>
