@@ -7,7 +7,7 @@ export function Navbar() {
       <div className="flex items-center">
         <a href="/" className="flex items-center">
           <Image src="/logo.png" alt="Mithril AI Logo" width={30} height={30} />
-          <h1 className="text-2xl font-semibold ml-3">MITHRIL</h1>
+          <h1 className="text-2xl font-medium ml-3">MITHRIL</h1>
         </a>
       </div>
       <div className="flex space-x-4 text-xs font-normal">
