@@ -48,7 +48,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
-      <body className="px-8 py-4 md:px-16 md:py-8">
+      <body className="px-8 py-4 md:px-16 md:py-10">
         <Navbar />
         {children}
         <Footer />
