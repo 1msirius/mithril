@@ -12,11 +12,11 @@ export const metadata: Metadata = {
     default: "Mithril AI",
     template: `%s | Mithril AI`,
   },
-  description: "Open-source AI Research & Development Lab",
+  description: "Open Source AI Research Lab",
   openGraph: {
     images: "/opengraph.png",
     title: "Mithril AI",
-    description: "Open-source AI Research & Development Lab",
+    description: "Open Source AI Research Lab",
     url: "https://mithrilai.vercel.app/",
     siteName: "Mithril AI",
     locale: "en_US",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "@MithrilAILabs",
+    title: "MithrilAI",
     card: "summary_large_image",
   },
   icons: {

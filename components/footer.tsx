@@ -6,11 +6,12 @@ export function Footer() {
       <div className="text-sm font-normal text-[#AFAFAF] mb-6 md:mb-0">
         <p>© 2024 Mithril AI</p>
       </div>
-      <div className="flex flex-wrap space-x-4 text-[10px] md:text-xs font-normal">
+      <div className="flex flex-wrap space-x-4 text-[10px] md:text-xs font-normal tracking-wider">
         <a
           href="https://twitter.com/mithrilailabs"
           target="_blank"
           rel="noopener noreferrer"
+          className="hover:text-gray-300"
         >
           X
         </a>
@@ -19,6 +20,7 @@ export function Footer() {
           href="https://github.com/mithrilai"
           target="_blank"
           rel="noopener noreferrer"
+          className="hover:text-gray-300"
         >
           GITHUB
         </a>
@@ -27,6 +29,7 @@ export function Footer() {
           href="https://hf.co/mithrilai"
           target="_blank"
           rel="noopener noreferrer"
+          className="hover:text-gray-300"
         >
           HF
         </a>
@@ -35,11 +38,17 @@ export function Footer() {
           href="https://discord.gg/jgy376Jyka"
           target="_blank"
           rel="noopener noreferrer"
+          className="hover:text-gray-300"
         >
           DISCORD
         </a>
         <span className="text-[#787878]">/</span>
-        <a href="mailto:info.mithrilai@gmail.com" target="_blank" rel="noopener noreferrer">
+        <a
+          href="mailto:info.mithrilai@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gray-300"
+        >
           CONTACT
         </a>
       </div>

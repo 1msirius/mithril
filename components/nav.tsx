@@ -27,7 +27,7 @@ export function Navbar() {
           </h1>
         </a>
       </div>
-      <div className="hidden md:flex space-x-4 text-xs font-normal">
+      <div className="hidden md:flex space-x-4 text-xs font-normal tracking-wider">
         <a href="/blog" className="hover:text-gray-300">BLOG</a>
         <span className="text-[#787878]">/</span>
         <a href="/about" className="hover:text-gray-300">ABOUT</a>
