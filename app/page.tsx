@@ -9,12 +9,12 @@ export default function Home() {
         from model weights to data pipelines fully open and accessible to all.
       </p>
       <div className="flex gap-4">
-        <a href="/">
+        <a href="https://github.com/mithrilai">
           <button className="bg-white text-black px-6 py-2 rounded-full text-base font-medium hover:bg-gray-200 transition-colors">
             GitHub
           </button>
         </a>
-        <a href="/">
+        <a href="https://github.com/mithrilai">
           <button className="bg-black text-white border border-[#787878] px-6 py-2 rounded-full text-base font-medium hover:bg-[#111111] transition-colors">
             Join Us
           </button>
