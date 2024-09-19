@@ -14,7 +14,7 @@ export default function Home() {
             GitHub
           </button>
         </a>
-        <a href="https://github.com/mithrilai">
+        <a href="https://discord.gg/jgy376Jyka">
           <button className="bg-black text-white border border-[#787878] px-6 py-2 rounded-full text-base font-medium hover:bg-[#111111] transition-colors">
             Join Us
           </button>
