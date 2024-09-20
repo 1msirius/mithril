@@ -62,59 +62,92 @@ export function Navbar() {
           </SheetTrigger>
           <SheetContent className="border-l border-[#2B2B2B] bg-black w-[250px] sm:w-[300px]">
             <SheetHeader>
-              <SheetTitle className="tracking-widest font-medium text-left">
+              <SheetTitle className="text-left tracking-widest font-medium">
                 MITHRIL
               </SheetTitle>
             </SheetHeader>
-            <nav className="mt-6 flex flex-col space-y-4 font-[family-name:var(--font-geist-mono)]">
-              <a
-                href="https://twitter.com/mithrilailabs"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm hover:text-gray-300"
-              >
-                TWITTER
-              </a>
-              <a
-                href="https://hf.co/mithrilai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm hover:text-gray-300"
-              >
-                HUGGING FACE
-              </a>
-              <a
-                href="https://discord.gg/jgy376Jyka"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm hover:text-gray-300"
-              >
-                DISCORD
-              </a>
-              <a
-                href="https://github.com/mithrilai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm hover:text-gray-300"
-              >
-                GITHUB
-              </a>
-              <a
-                href="https://www.linkedin.com/company/mithril-ai/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm hover:text-gray-300"
-              >
-                LINKEDIN
-              </a>
-              <a
-                href="mailto:info.mithrilai@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm hover:text-gray-300"
-              >
-                EMAIL
-              </a>
+            <nav className="mt-6 flex flex-col gap-8 font-[family-name:var(--font-geist-mono)]">
+              <div className="space-y-4">
+                <a
+                  href="/blog"
+                  className="text-sm hover:text-gray-300 flex gap-2"
+                >
+                  <span className="text-[#787878]">/</span>
+                  <h2>BLOG</h2>
+                </a>
+                <a
+                  href="/about"
+                  className="text-sm hover:text-gray-300 flex gap-2"
+                >
+                  <span className="text-[#787878]">/</span>
+                  <h2>ABOUT</h2>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm hover:text-gray-300 flex gap-2"
+                >
+                  <span className="text-[#787878]">/</span>
+                  <h2>CAREERS</h2>
+                </a>
+              </div>
+              <div className="space-y-4">
+                <a
+                  href="https://twitter.com/mithrilailabs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm hover:text-gray-300 flex gap-2"
+                >
+                  <span className="text-[#787878]">\</span>
+                  <h2>TWITTER</h2>
+                </a>
+                <a
+                  href="https://hf.co/mithrilai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm hover:text-gray-300 flex gap-2"
+                >
+                  <span className="text-[#787878]">\</span>
+                  <h2>HUGGING FACE</h2>
+                </a>
+                <a
+                  href="https://discord.gg/jgy376Jyka"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm hover:text-gray-300 flex gap-2"
+                >
+                  <span className="text-[#787878]">\</span>
+                  <h2>DISCORD</h2>
+                </a>
+                <a
+                  href="https://github.com/mithrilai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm hover:text-gray-300 flex gap-2"
+                >
+                  <span className="text-[#787878]">\</span>
+                  <h2>GITHUB</h2>
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/mithril-ai/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm hover:text-gray-300 flex gap-2"
+                >
+                  <span className="text-[#787878]">\</span>
+                  <h2>LINKEDIN</h2>
+                </a>
+                <a
+                  href="mailto:info.mithrilai@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm hover:text-gray-300 flex gap-2"
+                >
+                  <span className="text-[#787878]">\</span>
+                  <h2>EMAIL</h2>
+                </a>
+              </div>
             </nav>
           </SheetContent>
         </Sheet>
