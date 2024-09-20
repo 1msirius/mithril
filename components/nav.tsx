@@ -48,7 +48,7 @@ export function Navbar() {
             CAREERS
           </a>
         </div>
-        <span className="text-[#787878]">/</span>
+        <span className="text-[#787878] hidden md:inline">/</span>
         <Sheet>
           <SheetTrigger asChild>
             <Button
@@ -60,7 +60,7 @@ export function Navbar() {
               <span className="sr-only">Toggle menu</span>
             </Button>
           </SheetTrigger>
-          <SheetContent className="border-l border-[#2B2B2B] bg-black w-[300px] sm:w-[300px]">
+          <SheetContent className="border-l border-[#2B2B2B] bg-black w-[250px] sm:w-[300px]">
             <SheetHeader>
               <SheetTitle className="tracking-widest font-medium text-left">
                 MITHRIL
