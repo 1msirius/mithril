@@ -4,11 +4,9 @@ export default function Home() {
       <h1 className="text-4xl md:text-5xl mb-8">
         Open Science AI Research Lab
       </h1>
-      <p className="text-base mb-8 w-full max-w-[600px] leading-[26px]">
-        We are an open-source AI research company dedicated to advancing
-        pre-trained generative AI models. Our goal is to become the Linux of AI,
-        with everything <br />
-        from model weights to data pipelines fully open and accessible to all.
+      <p className="text-[22px] mb-8 w-full max-w-[600px] leading-[28px]">
+        Open models across diverse domains,
+        <br /> for everyone, everywhere.
       </p>
       <div className="flex gap-4">
         <a href="https://github.com/mithrilai">
