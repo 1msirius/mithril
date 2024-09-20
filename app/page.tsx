@@ -7,7 +7,7 @@ export default function Home() {
       <p className="text-lg mb-8 max-w-sm font-[family-name:var(--font-geist-mono)]">
         Open models across diverse domains, for everyone, everywhere.
       </p>
-      <div className="flex gap-4">
+      <div className="flex gap-4 items-center">
         <a href="https://github.com/mithrilai">
           <button className="bg-white text-black px-6 py-2 rounded-full text-base font-medium hover:bg-gray-200 transition-colors">
             GitHub
