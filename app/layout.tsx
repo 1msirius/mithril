@@ -49,13 +49,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
-      <body className="px-8 py-4 md:px-16 md:py-10 relative">
-        <Navbar />
-        <div className="absolute inset-0 -z-10">
-          <Particles3D />
+      <body className="relative">
+        <div className="px-8 py-4 md:px-16 md:py-10">
+          <Navbar />
+          <div className="absolute inset-0 -z-10">
+            <Particles3D />
+          </div>
+          {children}
+          <Footer />
         </div>
-        {children}
-        <Footer />
       </body>
     </html>
   );
