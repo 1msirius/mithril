@@ -1,8 +1,8 @@
-"use client"
-import { useEffect, useRef } from 'react';
-import * as THREE from 'three';
+"use client";
+import { useEffect, useRef } from "react";
+import * as THREE from "three";
 
-const Particles = () => {
+export function Animation() {
   const mountRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -22,14 +22,14 @@ const Particles = () => {
       mount.appendChild(renderer.domElement);
 
       // Create a circular texture
-      const canvas = document.createElement('canvas');
+      const canvas = document.createElement("canvas");
       canvas.width = 32;
       canvas.height = 32;
-      const ctx = canvas.getContext('2d');
+      const ctx = canvas.getContext("2d");
       if (ctx) {
         const gradient = ctx.createRadialGradient(16, 16, 0, 16, 16, 16);
-        gradient.addColorStop(0, 'rgba(255,255,255,1)');
-        gradient.addColorStop(1, 'rgba(255,255,255,0)');
+        gradient.addColorStop(0, "rgba(255,255,255,1)");
+        gradient.addColorStop(1, "rgba(255,255,255,0)");
         ctx.fillStyle = gradient;
         ctx.fillRect(0, 0, 32, 32);
       }
@@ -42,7 +42,7 @@ const Particles = () => {
         positions[i] = (Math.random() - 0.5) * 10;
       }
       particlesGeometry.setAttribute(
-        'position',
+        "position",
         new THREE.BufferAttribute(positions, 3)
       );
 
@@ -73,16 +73,14 @@ const Particles = () => {
         renderer.setSize(window.innerWidth, window.innerHeight);
       };
 
-      window.addEventListener('resize', handleResize);
+      window.addEventListener("resize", handleResize);
 
       return () => {
         if (mount) mount.removeChild(renderer.domElement);
-        window.removeEventListener('resize', handleResize);
+        window.removeEventListener("resize", handleResize);
       };
     }
   }, []);
 
-  return <div ref={mountRef} style={{ width: '100%', height: '100vh' }}></div>;
-};
-
-export default Particles;
+  return <div ref={mountRef} style={{ width: "100%", height: "100vh" }}></div>;
+}
