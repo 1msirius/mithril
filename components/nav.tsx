@@ -54,9 +54,9 @@ export function Navbar() {
             <Button
               variant="ghost"
               size="icon"
-              className="text-white hover:text-gray-300 h-4 w-4"
+              className="text-white hover:text-gray-300 h-6 w-6 sm:h-4 sm:w-4"
             >
-              <Menu className="h-4 w-4 mb-[1px]" />
+              <Menu className="mb-[1px]" />
               <span className="sr-only">Toggle menu</span>
             </Button>
           </SheetTrigger>

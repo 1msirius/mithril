@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-[82vh] text-center px-4">
-      <h1 className="text-4xl md:text-5xl mb-8">
+      <h1 className="text-3xl md:text-5xl mb-8">
         Open Science AI Research Lab
       </h1>
       <p className="text-lg mb-8 max-w-sm font-[family-name:var(--font-geist-mono)]">
