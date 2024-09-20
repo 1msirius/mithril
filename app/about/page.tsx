@@ -8,14 +8,14 @@ export default function About() {
         with everything <br />
         from model weights to data pipelines fully open and accessible to all.
       </p>
-      <div className="flex gap-4">
+      <div className="flex gap-4 items-center">
         <a href="https://github.com/mithrilai">
           <button className="bg-white text-black px-6 py-2 rounded-full text-base font-medium hover:bg-gray-200 transition-colors">
             GitHub
           </button>
         </a>
         <a href="https://discord.gg/jgy376Jyka">
-          <button className="bg-black text-white border border-[#787878] px-6 py-2 rounded-full text-base font-medium hover:bg-[#111111] transition-colors">
+          <button className="bg-black text-[#EDEDED] border border-solid border-[#2B2B2B] px-6 py-2 rounded-full text-base font-medium hover:bg-[#111111] transition-colors">
             Join Us
           </button>
         </a>
