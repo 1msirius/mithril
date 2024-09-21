@@ -46,7 +46,8 @@ jobs:
       - name: Build
         run: pnpm run build
       - name: Copy 404 page
-        run: cp out/404/index.html out/404.html
+        # Manually copy the 404 page from /app/not-found to root of /out as 404.html
+        run: cp out/not-found/index.html out/404.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
