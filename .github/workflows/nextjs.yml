@@ -45,6 +45,13 @@ jobs:
         run: pnpm install
       - name: Build
         run: pnpm run build
+      - name: Check for not-found.html and copy as 404.html
+        run: |
+          if [ -f out/not-found.html ]; then
+            cp out/not-found.html out/404.html
+          else
+            echo "not-found.html not found!"
+          fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
