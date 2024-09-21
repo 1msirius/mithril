@@ -33,11 +33,12 @@ jobs:
         run: |
           pnpm install
           pnpm run build
-      - name: Prepare 404
+      - name: Prepare 404 and fix CSS paths
         run: |
           [ -f out/404.html ] || [ -f out/404/index.html ] || \
           [ -f out/not-found.html ] && cp out/not-found.html out/404.html || \
           echo "<h1>404 - Not Found</h1>" > out/404.html
+          find out -name "*.html" -exec sed -i 's/"\/_next\//".\/\_next\//g' {} +
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
