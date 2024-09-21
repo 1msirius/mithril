@@ -23,6 +23,7 @@ export function Navbar() {
             className="pb-[2px]"
             width={34}
             height={34}
+            unoptimized
           />
           <h1 className="text-[28px] font-medium ml-2 tracking-widest">
             MITHRIL
